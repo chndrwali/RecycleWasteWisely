@@ -5,14 +5,14 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Acknowledgment from './pages/Acknowledgment';
+import About from './pages/About';
 import Classify from './pages/Classify';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/acknowledgment" element={<Acknowledgment />} />
+      <Route path="/about" element={<About />} />
       <Route path="/klasifikasikan" element={<Classify />} />
     </Routes>
   );
