@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react'; // Import React
 import { contributors } from '../../data/aboutData';
 import Developer from './Developer';

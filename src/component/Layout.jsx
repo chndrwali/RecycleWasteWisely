@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import BackToTop from './BackToTop';
 import Footer from './footer/Footer';
@@ -11,7 +12,6 @@ function Layout({ children }) {
       <Header />
       <main
         id="content"
-        tabIndex="0"
         className="z-20 mt-20 md:mx-12 lg:mx-20"
       >
         {children}

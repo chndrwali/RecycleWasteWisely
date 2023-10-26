@@ -32,6 +32,7 @@ function ImagePreview() {
         />
       </div>
       <button
+        type="button"
         className="w-full min-h-[44px] min-w-[44px] inline-flex justify-center bg-primary text-white rounded-md mt-2 p-3 hover:brightness-110 hover:shadow-md transition-all duration-200 ease-in-out text-center cursor-pointer"
         onClick={handleClassifyClick}
         title="Tombol Klasifikasi Gambar"

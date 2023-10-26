@@ -1,4 +1,4 @@
-import React from 'react'; // Import React jika belum diimpor
+import React from 'react';
 import ImageInput from './ImageInput';
 import ImagePreview from './ImagePreview';
 

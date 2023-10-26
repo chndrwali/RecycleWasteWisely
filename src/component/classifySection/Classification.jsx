@@ -1,3 +1,5 @@
+/* eslint-disable no-shadow */
+/* eslint-disable react/jsx-no-constructed-context-values */
 import React, { useRef, useState } from 'react'; // Import React jika belum diimpor
 
 import { classify } from '../../data/classifyData';
