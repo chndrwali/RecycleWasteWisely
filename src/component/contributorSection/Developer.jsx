@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'; // Pastikan mengimpor React
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Developer({ developer }) {
   return (
@@ -37,6 +37,16 @@ function Developer({ developer }) {
             className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl text-black hover:text-white hover:bg-black rounded-full transition duration-300 ease-out"
           >
             <FaGithub />
+          </a>
+          <a
+            href={developer.socials.instagram}
+            target="_blank"
+            rel="noreferrer"
+            title="Tombol Instagram Developer"
+            aria-label="Tombol Instagram Developer"
+            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl text-black hover:text-white hover:bg-black rounded-full transition duration-300 ease-out"
+          >
+            <FaInstagram />
           </a>
         </div>
       </div>

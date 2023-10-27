@@ -10,12 +10,13 @@ const contributors = {
     {
       id: 0,
       name: 'Candra Wali Sanjaya',
-      title: 'Front-End Developer',
+      title: 'Full Stack Developer',
       image: '/img/contributors/candra.webp',
       alt: 'Candra Wali Sanjaya',
       socials: {
         linkedin: 'https://www.linkedin.com/in/chndrwali/',
         github: 'https://github.com/chndrwali',
+        instagram: 'https://instagram.com/chndrwali',
       },
     },
     {
@@ -27,6 +28,43 @@ const contributors = {
       socials: {
         linkedin: 'https://www.linkedin.com/in/chndrwali/',
         github: 'https://github.com/chndrwali',
+        instagram: 'https://instagram.com/',
+      },
+    },
+    {
+      id: 2,
+      name: 'unknown',
+      title: 'Deep Learning Dev',
+      image: '/img/contributors/tann20.jfif',
+      alt: 'unknown',
+      socials: {
+        linkedin: 'https://www.linkedin.com/in/chndrwali/',
+        github: 'https://github.com/chndrwali',
+        instagram: 'https://instagram.com/',
+      },
+    },
+    {
+      id: 3,
+      name: 'unknown',
+      title: 'UI UX Design',
+      image: '/img/contributors/tann20.jfif',
+      alt: 'unknown',
+      socials: {
+        linkedin: 'https://www.linkedin.com/in/chndrwali/',
+        github: 'https://github.com/chndrwali',
+        instagram: 'https://instagram.com/',
+      },
+    },
+    {
+      id: 4,
+      name: 'unknown',
+      title: 'Machine Learning Dev',
+      image: '/img/contributors/tann20.jfif',
+      alt: 'unknown',
+      socials: {
+        linkedin: 'https://www.linkedin.com/in/chndrwali/',
+        github: 'https://github.com/chndrwali',
+        instagram: 'https://instagram.com/',
       },
     },
   ],
