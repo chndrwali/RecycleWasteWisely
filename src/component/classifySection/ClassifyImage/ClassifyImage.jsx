@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import ImageInput from './ImageInput';
 import ImagePreview from './ImagePreview';

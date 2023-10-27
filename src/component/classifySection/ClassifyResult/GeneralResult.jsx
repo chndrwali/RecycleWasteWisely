@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react'; // Import React jika belum diimpor
 
 function GeneralResult({
