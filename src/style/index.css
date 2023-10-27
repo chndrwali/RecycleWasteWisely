@@ -56,3 +56,21 @@ body {
     @apply -rotate-45 ml-auto;
   }
 }
+
+.cursor {
+  display: inline-block;
+  width: 0.4em; /* Lebar kursor */
+  height: 1em; /* Tinggi kursor */
+  background-color: rgb(255, 255, 255); /* Warna kursor */
+  animation: blink-cursor 1s step-start infinite;
+}
+
+@keyframes blink-cursor {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

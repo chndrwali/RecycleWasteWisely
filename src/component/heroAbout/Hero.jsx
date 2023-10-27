@@ -8,7 +8,7 @@ function Hero() {
         <div className="flex flex-wrap justify-center text-center px-4 lg:px-12">
           <img
             src={hero.image}
-            alt="hero acknowledgment illustration"
+            alt="hero about illustration"
             className="w-full mb-2 lg:w-3/4"
           />
           <h1 className="font-bold text-dark text-4xl mb-3 lg:mb-5 lg:text-6xl">
