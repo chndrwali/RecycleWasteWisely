@@ -51,9 +51,9 @@ const contributors = {
       image: '/img/contributors/amulistia.webp',
       alt: 'Amulistia',
       socials: {
-        linkedin: 'https://www.linkedin.com/in/chndrwali/',
+        linkedin: 'https://id.linkedin.com/in/amulistia-undefined-009045295',
         github: 'https://github.com/chndrwali',
-        instagram: 'https://instagram.com/',
+        instagram: 'https://instagram.com/amulistia9',
       },
     },
     {
@@ -63,7 +63,7 @@ const contributors = {
       image: '/img/contributors/wina.webp',
       alt: 'Wina Yulianti',
       socials: {
-        linkedin: 'https://www.linkedin.com/in/chndrwali/',
+        linkedin: 'https://www.linkedin.com/in/wina-yulianti-a55007283/',
         github: 'https://github.com/chndrwali',
         instagram: 'https://instagram.com/i.niiwinaa',
       },
