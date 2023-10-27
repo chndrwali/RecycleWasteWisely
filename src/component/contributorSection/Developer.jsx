@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react'; // Pastikan mengimpor React
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import {
+  FaLinkedin, FaGithub, FaInstagram, FaTwitter,
+} from 'react-icons/fa';
 
 function Developer({ developer }) {
   return (
@@ -22,32 +24,46 @@ function Developer({ developer }) {
             href={developer.socials.linkedin}
             target="_blank"
             rel="noreferrer"
-            title="Tombol LinkedIn Developer"
-            aria-label="Tombol LinkedIn Developer"
-            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl text-[#0077B5] hover:text-white hover:bg-[#0077B5] rounded-full transition duration-300 ease-out"
+            title="Tombol LinkedIn"
+            aria-label="Tombol LinkedIn"
+            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-[#0077B5] to-[#00669D] hover:from-[#00669D] hover:to-[#004E87] hover:text-white"
           >
             <FaLinkedin />
           </a>
+
           <a
             href={developer.socials.github}
             target="_blank"
             rel="noreferrer"
             title="Tombol GitHub Developer"
             aria-label="Tombol GitHub Developer"
-            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl text-black hover:text-white hover:bg-black rounded-full transition duration-300 ease-out"
+            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-white to-gray-800 hover:from-gray-800 hover:to-gray-900 hover:text-white"
           >
             <FaGithub />
           </a>
+
           <a
             href={developer.socials.instagram}
             target="_blank"
             rel="noreferrer"
-            title="Tombol Instagram Developer"
-            aria-label="Tombol Instagram Developer"
-            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl text-black hover:text-white hover:bg-black rounded-full transition duration-300 ease-out"
+            title="Tombol Instagram"
+            aria-label="Tombol Instagram"
+            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-[#FDCB52] to-[#F97316] hover:from-[#F97316] hover:to-[#DB2777] hover:text-white"
           >
             <FaInstagram />
           </a>
+
+          <a
+            href={developer.socials.twitter}
+            target="_blank"
+            rel="noreferrer"
+            title="Tombol Twitter"
+            aria-label="Tombol Twitter"
+            className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-blue-500 to-blue-800 hover:from-blue-800 hover:to-blue-900 hover:text-white"
+          >
+            <FaTwitter />
+          </a>
+
         </div>
       </div>
     </div>

@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home';
 import About from './pages/About';
 import Classify from './pages/Classify';
+import Resource from './pages/Resource';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/klasifikasikan" element={<Classify />} />
+      <Route path="/resource" element={<Resource />} />
     </Routes>
   );
 }
