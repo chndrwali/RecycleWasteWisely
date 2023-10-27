@@ -48,7 +48,7 @@ const contributors = {
       id: 3,
       name: 'Amulistia',
       title: 'UI UX Design',
-      image: '/img/contributors/',
+      image: '/img/contributors/amulistia.webp',
       alt: 'Amulistia',
       socials: {
         linkedin: 'https://www.linkedin.com/in/chndrwali/',
@@ -60,7 +60,7 @@ const contributors = {
       id: 4,
       name: 'Wina Yulianti',
       title: 'Data Engineer',
-      image: '/img/contributors/',
+      image: '/img/contributors/wina.webp',
       alt: 'Wina Yulianti',
       socials: {
         linkedin: 'https://www.linkedin.com/in/chndrwali/',
