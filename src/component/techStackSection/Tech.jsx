@@ -9,7 +9,7 @@ function Tech({ tech }) {
           <img
             src={tech.image}
             alt={`Logo ${tech.name}`}
-            className="w-24 h-24 object-scale-down aspect-square"
+            className="w-24 h-24 object-scale-down aspect-square image-animation"
           />
         </div>
         <h3

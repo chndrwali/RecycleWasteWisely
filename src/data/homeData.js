@@ -1,6 +1,6 @@
 const hero = {
   title: 'Pengelola Sampah Masyarakat',
-  subtitle: 'Klasifikasi sampah 12 jenis dengan Machine Learning End-to-End.',
+  subtitle: 'Klasifikasi sampah 12 jenis menggunakan Convolutional Neural Networks (CNN)',
   desc: 'Aplikasi yang mengintegrasikan model Machine Learning Image Classification untuk klasifikasi 12 jenis sampah secara End-to-End bagi pengguna.',
   video: '/video/hero.webm',
   image: '/img/hero.webp',

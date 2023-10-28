@@ -75,6 +75,11 @@ body {
   }
 }
 
-.subtitle-and-button {
-  position: absolute; /* Sesuaikan ini sesuai dengan desain Anda */
+.image-animation {
+  transform: translateY(0); /* Mengatur posisi awal */
+  transition: transform 0.5s; /* Durasi animasi dan jenis animasi (bisa disesuaikan) */
+}
+
+.image-animation:hover {
+  transform: translateY(-10px); /* Transformasi saat gambar di-hover (bisa disesuaikan) */
 }

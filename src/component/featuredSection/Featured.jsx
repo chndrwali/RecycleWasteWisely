@@ -7,7 +7,7 @@ function Featured() {
   return (
     <section
       id="featured"
-      className="py-20 border-b-2 border-primary/50"
+      className="py-20 border-t-4 border-primary/50"
     >
       <div className="container">
         <div className="flex flex-wrap justify-center">
