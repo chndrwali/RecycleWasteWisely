@@ -52,7 +52,7 @@ const contributors = {
       alt: 'Amulistia',
       socials: {
         linkedin: 'https://id.linkedin.com/in/amulistia-undefined-009045295',
-        github: 'https://github.com/chndrwali',
+        github: 'https://github.com/Amulistia',
         instagram: 'https://instagram.com/amulistia9',
       },
     },
@@ -199,8 +199,8 @@ const credits = {
     },
     {
       title: 'Color Palette',
-      text: 'Generate from Coolors.co',
-      url: 'https://coolors.co/264653-2a9d8f-e76f51-ddd8b8-ffffff',
+      text: 'Generate from Color Hunt',
+      url: 'https://colorhunt.co/',
     },
     {
       title: 'Icons',

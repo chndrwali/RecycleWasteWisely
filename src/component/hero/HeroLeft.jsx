@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function HeroLeft({ hero }) {
-  const [typedTitle, setTypedTitle] = useState('Pengelolaan'); // Mulai dengan "Pengelolaan"
-  const [currentCharIndex, setCurrentCharIndex] = useState(11); // Panjang "Pengelolaan"
+function HeroTitle() {
+  const [typedTitle, setTypedTitle] = useState('Pengelolaan');
+  const [currentCharIndex, setCurrentCharIndex] = useState(11);
 
   useEffect(() => {
     const titleText = 'Pengelolaan Sampah Masyarakat';
@@ -15,27 +15,31 @@ function HeroLeft({ hero }) {
         setTypedTitle(titleText.substring(0, currentCharIndex + 1));
         setCurrentCharIndex(currentCharIndex + 1);
       } else {
-        // Reset to the beginning if all characters have been typed
-        setCurrentCharIndex(11); // Kembali ke "Pengelolaan"
+        setCurrentCharIndex(11);
         setTypedTitle('Pengelolaan');
       }
     };
 
-    const typingInterval = setInterval(typeTitle, 350); // Kecepatan mengetik (350 milidetik)
+    const typingInterval = setInterval(typeTitle, 350);
 
     return () => {
-      clearInterval(typingInterval); // Membersihkan interval saat komponen dilepaskan
+      clearInterval(typingInterval);
     };
   }, [currentCharIndex]);
 
   return (
+    <h1 className="font-bold text-primary text-4xl mb-4 lg:text-6xl">
+      <span className="typed-text">{typedTitle}</span>
+      <span className="cursor">&#9608;</span>
+      {' '}
+    </h1>
+  );
+}
+
+function HeroLeft({ hero }) {
+  return (
     <div className="w-full self-center px-4 lg:pl-4 lg:pr-8 lg:w-1/2">
-      <h1 className="font-bold text-primary text-4xl mb-4 lg:text-6xl">
-        <span className="typed-text">{typedTitle}</span>
-        <span className="cursor">&#9608;</span>
-        {' '}
-        {/* Simbol kursor */}
-      </h1>
+      <HeroTitle />
       <h2 className="font-semibold text-dark text-xl mb-3 lg:text-3xl">
         {hero.subtitle}
       </h2>
