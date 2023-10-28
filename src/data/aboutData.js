@@ -1,7 +1,6 @@
 const hero = {
-  title: 'About',
-  subtitle: 'Terima kasih kepada para kontributor, teknologi, dan sumber daya yang  membantu dalam pembuatan aplikasi ini.',
-  image: '/img/about-hero.webp',
+  title: 'Tentang Kami',
+  subtitle: 'Kami berkomitmen untuk menawarkan solusi pengelolaan sampah yang inventif dalam upaya kami untuk mewujudkan lingkungan yang lebih bersih dan berkelanjutan. Kami bertekad untuk memberikan kontribusi positif bagi masyarakat dan Bumi kita yang indah melalui teknologi terkini dalam analisis gambar dan kepedulian yang mendalam terhadap lingkungan. Kami berkomitmen untuk menyediakan alat yang akan membantu Anda mengidentifikasi, mengelola, dan mendaur ulang sampah dengan lebih efisien, sehingga kita dapat bekerja sama untuk menjaga Bumi untuk generasi mendatang.',
 };
 
 const contributors = {
@@ -72,8 +71,8 @@ const contributors = {
 };
 
 const techStack = {
-  title: 'Teknologi yang Digunakan',
-  subtitle: 'Aplikasi ini buat dengan menggunakan beberapa teknologi yang dapat membantu dalam proses pembuatan.',
+  title: 'Teknologi yang digunakan',
+  subtitle: 'Aplikasi ini dibuat menggunakan beberapa teknologi yang membantu proses pembuatan.',
   techs: [
     {
       id: 0,
@@ -185,7 +184,7 @@ const techStack = {
 
 const credits = {
   title: 'Sumber Daya Lainnya',
-  subtitle: 'Beberapa sumber daya lainnya yang dapat membantu dalam pembuatan aplikasi ini.',
+  subtitle: 'Beberapa sumber daya tambahan yang dapat digunakan untuk membantu dalam pengembangan aplikasi ini.',
   resources: [
     {
       title: 'Datasets',

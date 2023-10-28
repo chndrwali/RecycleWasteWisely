@@ -18,6 +18,7 @@ function Navbar({ isHamburgerOpen }) {
         >
           Beranda
         </NavLink>
+
         <NavLink
           to="/about"
           className="nav-link mb-3 lg:mb-0"
@@ -25,14 +26,14 @@ function Navbar({ isHamburgerOpen }) {
           title="Tombol menu tentang kami"
           aria-label="Tombol menu tentang kami"
         >
-          Tentang kami
+          Tentang Kami
         </NavLink>
         <NavLink
           to="/resource"
           className="nav-link mb-3 lg:mb-0"
           activeclassname="nav-link active"
-          title="Tombol menu pengakuan"
-          aria-label="Tombol menu pengakuan"
+          title="Tombol menu sumber daya"
+          aria-label="Tombol menu sumber daya"
         >
           Sumber Daya
         </NavLink>
