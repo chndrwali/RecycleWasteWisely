@@ -12,7 +12,7 @@ function About() {
           <img
             src={about.image}
             alt="about illustration"
-            className="w-full lg:w-[75%]"
+            className="w-full lg:w-[50%]"
           />
           <p className="w-full text-dark font-medium text-center mb-10 lg:leading-relaxed lg:w-2/3 lg:text-lg">
             {about.desc}

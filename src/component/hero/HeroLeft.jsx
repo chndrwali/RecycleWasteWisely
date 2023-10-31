@@ -3,11 +3,11 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function HeroTitle() {
-  const [typedTitle, setTypedTitle] = useState('Pengelolaan');
+  const [typedTitle, setTypedTitle] = useState('Recycle');
   const [currentCharIndex, setCurrentCharIndex] = useState(11);
 
   useEffect(() => {
-    const titleText = 'Pengelolaan Sampah Masyarakat';
+    const titleText = 'Recycle Waste Wisely';
     const titleLength = titleText.length;
 
     const typeTitle = () => {
@@ -16,7 +16,7 @@ function HeroTitle() {
         setCurrentCharIndex(currentCharIndex + 1);
       } else {
         setCurrentCharIndex(11);
-        setTypedTitle('Pengelolaan');
+        setTypedTitle('Recycle');
       }
     };
 
