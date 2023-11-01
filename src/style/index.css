@@ -24,15 +24,15 @@ body {
 }
 
 .nav-link:hover {
-  @apply hover:text-primary hover:underline hover:decoration-secondary hover:decoration-2 hover:underline-offset-8 transition-all duration-300 ease-in-out;
+  @apply hover:text-yellow-500 hover:underline hover:decoration-green-600 hover:decoration-2 hover:underline-offset-8 transition-all duration-300 ease-in-out;
 }
 
 .nav-link.active {
-  @apply text-primary font-medium underline decoration-secondary decoration-2 underline-offset-8 transition-all duration-300 ease-in-out;
+  @apply text-black font-medium underline decoration-green-600 decoration-2 underline-offset-8 transition-all duration-300 ease-in-out;
 }
 
 .btn-link {
-  @apply flex items-center text-base text-white py-2 mx-6 px-4 bg-primary/90 rounded min-h-[44px] min-w-[44px] hover:bg-primary/100 lg:mx-4 hover:shadow-xl hover:opacity-80 transition duration-300 ease-out;
+  @apply flex items-center text-base text-white py-2 mx-6 px-4 bg-primary/90 rounded min-h-[44px] min-w-[44px] hover:bg-dark/90 lg:mx-4 hover:shadow-xl hover:opacity-80 transition duration-300 ease-out;
 }
 
 .btn-link.active {

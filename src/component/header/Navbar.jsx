@@ -18,7 +18,15 @@ function Navbar({ isHamburgerOpen }) {
         >
           Beranda
         </NavLink>
-
+        <NavLink
+          to="/article"
+          className="nav-link"
+          activeclassname="nav-link active"
+          title="Tombol menu article"
+          aria-label="Tombol menu article"
+        >
+          Artikel
+        </NavLink>
         <NavLink
           to="/about"
           className="nav-link mb-3 lg:mb-0"
