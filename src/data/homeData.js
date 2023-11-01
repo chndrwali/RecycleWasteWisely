@@ -8,7 +8,7 @@ const hero = {
 };
 
 const about = {
-  title: 'Apa itu PSM Apps?',
+  title: 'Apa itu ReWWiS Apps?',
   desc: 'Aplikasi ini merupakan aplikasi yang mengintegrasikan model Machine Learning Image Classification secara End-to-End untuk memberikan klasifikasi 12 jenis sampah yang mudah dipahami bagi pengguna tanpa harus menjalankan model Machine Learning pada Kode Notebook Python.',
   image: '/img/about-illustration.webp',
 };
@@ -63,7 +63,7 @@ const featured = {
 };
 
 const footer = {
-  copy: '© 2023 PSM Apps | SIB Orbit Future Academy Team 1. All rights reserved.',
+  copy: '© 2023 ReWWiS Apps | SIB Orbit Future Academy Team 1. All rights reserved.',
   viewOnGithub: {
     title: 'View on Github',
     url: 'https://github.com/chndrwali/PengelolaSampahMasyarakat',
