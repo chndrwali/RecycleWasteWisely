@@ -24,11 +24,11 @@ body {
 }
 
 .nav-link:hover {
-  @apply hover:text-yellow-500 hover:underline hover:decoration-green-600 hover:decoration-2 hover:underline-offset-8 transition-all duration-300 ease-in-out;
+  @apply hover:text-primary hover:underline hover:decoration-yellow-500 hover:decoration-2 hover:underline-offset-8 transition-all duration-300 ease-in-out;
 }
 
 .nav-link.active {
-  @apply text-black font-medium underline decoration-green-600 decoration-2 underline-offset-8 transition-all duration-300 ease-in-out;
+  @apply text-primary font-medium underline decoration-yellow-500/90 decoration-2 underline-offset-8 transition-all duration-300 ease-in-out;
 }
 
 .btn-link {

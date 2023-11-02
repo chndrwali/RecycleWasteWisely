@@ -30,7 +30,7 @@ function HeroTitle() {
   return (
     <h1 className="font-bold text-primary text-4xl mb-4 lg:text-6xl">
       <span className="typed-text">{typedTitle}</span>
-      <span className="cursor">&#9608;</span>
+      <span className="cursor">&#9614;</span>
       {' '}
     </h1>
   );
