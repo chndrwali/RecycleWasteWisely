@@ -1,11 +1,16 @@
 /* eslint-disable react/no-array-index-key */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { bloglist } from '../../data/articleData';
 
 function Article() {
   const { id } = useParams();
   const selectedArticle = bloglist.find((item) => item.id === parseInt(id, 10));
+
+  useEffect(() => {
+    // Scroll ke atas halaman saat komponen Article di-mount
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!selectedArticle) {
     return <div>Artikel tidak ditemukan.</div>;
