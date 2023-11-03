@@ -211,6 +211,11 @@ const credits = {
       text: 'Icons8',
       url: 'https://icons8.com/illustrations',
     },
+    {
+      title: 'Image Creator',
+      text: 'Bing AI Image Generator',
+      url: 'https://www.bing.com/images/create?',
+    },
   ],
 };
 
