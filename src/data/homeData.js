@@ -64,10 +64,21 @@ const featured = {
 
 const footer = {
   copy: '2023 ReWWiS Apps | SIB Orbit Future Academy Team 1. All rights reserved.',
-  logo: '/img/logo/favicon.ico',
   viewOnGithub: {
     title: 'View on Github',
     url: 'https://github.com/chndrwali/PengelolaSampahMasyarakat',
+  },
+  twitter: {
+    title: 'View On Twitter',
+    url: 'https://twitter.com/chndrwali',
+  },
+  linkedin: {
+    title: 'View On Linkedin',
+    url: 'https://linkedin.com/chndrwali',
+  },
+  instagram: {
+    title: 'View On Instagram',
+    url: 'https://instagram.com/chndrwali',
   },
 };
 
