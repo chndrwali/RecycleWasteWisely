@@ -4,6 +4,7 @@ const bloglist = [
     title: 'Panduan Praktis Daur Ulang Sampah: Langkah Demi Langkah',
     caption: 'Pengelolaan sampah yang baik adalah langkah penting dalam menjaga keberlanjutan lingkungan. Daur ulang adalah cara yang efektif untuk mengurangi limbah dan berkontribusi pada pelestarian sumber daya alam. Dalam panduan ini, kami akan membahas langkah-langkah praktis untuk melakukan daur ulang sampah dengan benar.',
     date: '10 Oktober 2023',
+    image: '/img/article/daurulang.png',
     content: [
       {
         filter: 'Langkah 1 : ',

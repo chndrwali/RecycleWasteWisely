@@ -13,6 +13,11 @@ function Article() {
 
   return (
     <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
+      <img
+        src={selectedArticle.image}
+        alt="Gambar Sampah"
+        className="w-[1280px] h-[280px] rounded-[10px] md:max-w-screen-xl mb-4"
+      />
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
         {selectedArticle.title}
       </h1>

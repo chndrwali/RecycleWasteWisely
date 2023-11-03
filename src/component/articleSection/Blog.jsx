@@ -11,7 +11,12 @@ function Blog() {
           key={item.id}
           className="mt-4 mb-4 hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-yellow-500 to-teal-800 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
         >
-          <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+          <div className="rounded-[10px] bg-white p-4 !pt-10 sm:p-6 overflow-hidden">
+            <img
+              src={item.image}
+              alt="Gambar Sampah"
+              className="w-[1280px] h-[280px] rounded-[10px] md:max-w-screen-xl mb-4"
+            />
             <time dateTime="2022-10-10" className="block text-xs text-gray-500">
               {item.date}
             </time>

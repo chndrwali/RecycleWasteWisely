@@ -63,7 +63,8 @@ const featured = {
 };
 
 const footer = {
-  copy: '© 2023 ReWWiS Apps | SIB Orbit Future Academy Team 1. All rights reserved.',
+  copy: '2023 ReWWiS Apps | SIB Orbit Future Academy Team 1. All rights reserved.',
+  logo: '/img/logo/favicon.ico',
   viewOnGithub: {
     title: 'View on Github',
     url: 'https://github.com/chndrwali/PengelolaSampahMasyarakat',
