@@ -28,14 +28,11 @@ function Blog() {
             </Link>
 
             <div className="mt-4 flex flex-wrap gap-1">
-              {item.content.map((contentItem, index) => (
-                <span
-                  key={index}
-                  className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-                >
-                  {contentItem.filtered}
-                </span>
-              ))}
+              <span
+                className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
+              >
+                {item.filtered}
+              </span>
             </div>
           </div>
         </article>
