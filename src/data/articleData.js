@@ -4,7 +4,7 @@ const bloglist = [
     title: 'Pandawara Group: Lima Pemuda yang Peduli Lingkungan',
     caption: 'Pandawara Group adalah sebuah kelompok yang terdiri dari lima pemuda asal Bandung, Jawa Barat, yang memiliki kepedulian tinggi terhadap lingkungan. Mereka sering melakukan aksi bersih-bersih sampah di berbagai lokasi, mulai dari sungai, selokan, hingga pantai. Aksi mereka ini sering dibagikan melalui media sosial, seperti TikTok, Instagram, dan YouTube, dengan tujuan menginspirasi dan mengajak masyarakat untuk ikut menjaga kebersihan lingkungan.',
     date: '01 Oktober 2023',
-    image: '/img/article/pandawara.png',
+    image: '/img/article/pandawara.webp',
     filtered: 'Terbentuknya Pandawara Group',
     content: [
       {
@@ -41,7 +41,7 @@ const bloglist = [
     title: 'Kondisi Sampah Bandung Memprihatinkan Akibat Kebakaran TPA Sarimukti',
     caption: 'Bandung merupakan salah satu kota besar di Indonesia yang menghasilkan sampah cukup banyak. Setiap hari, timbulan sampah yang dihasilkan masyarakat mencapai 1.600 ton1. Namun, sebagian besar sampah tersebut tidak bisa diolah secara optimal di kota ini, melainkan harus diangkut ke tempat pembuangan akhir (TPA) Sarimukti yang berada di Kabupaten Bandung Barat (KBB).',
     date: '10 Oktober 2023',
-    image: '/img/article/tpa-sarimukti.png',
+    image: '/img/article/tpa-sarimukti.webp',
     filtered: 'TPA Sarimukti',
     content: [
       {
@@ -84,7 +84,7 @@ const bloglist = [
     title: 'Panduan Praktis Daur Ulang Sampah: Langkah Demi Langkah',
     caption: 'Pengelolaan sampah yang baik adalah langkah penting dalam menjaga keberlanjutan lingkungan. Daur ulang adalah cara yang efektif untuk mengurangi limbah dan berkontribusi pada pelestarian sumber daya alam. Dalam panduan ini, kami akan membahas langkah-langkah praktis untuk melakukan daur ulang sampah dengan benar.',
     date: '10 Oktober 2023',
-    image: '/img/article/daurulang.png',
+    image: '/img/article/daurulang.webp',
     filtered: 'Daur Ulang Sampah',
     content: [
       {
@@ -126,7 +126,7 @@ const bloglist = [
     title: 'Kondisi Masalah Sampah di Kota Bandung',
     caption: 'Kondisi masalah sampah di Kota Bandung adalah masalah serius yang mempengaruhi lingkungan dan kesehatan masyarakat. Bandung adalah salah satu kota terbesar di Indonesia dan pertumbuhannya yang pesat telah mengakibatkan peningkatan produksi sampah. Artikel ini akan membahas masalah sampah di Kota Bandung dan upaya yang sedang dilakukan untuk mengatasinya.',
     date: '12 Oktober 2023',
-    image: '/img/article/bandung.png',
+    image: '/img/article/bandung.webp',
     filtered: 'Kondisi Sampah Bandung',
     content: [
       {
@@ -152,7 +152,7 @@ const bloglist = [
     title: 'Tantangan Masalah Sampah di Indonesia',
     caption: 'Indonesia, dengan populasi yang besar dan pertumbuhan ekonomi yang cepat, menghadapi tantangan serius terkait dengan pengelolaan sampah. Masalah ini berkaitan dengan dampak lingkungan, kesehatan masyarakat, dan berkelanjutan. Artikel ini akan membahas tantangan utama yang dihadapi Indonesia dalam mengatasi masalah sampah.',
     date: '15 Oktober 2023',
-    image: '/img/article/masalah-sampah-indonesia.png',
+    image: '/img/article/masalah-sampah-indonesia.webp',
     filtered: 'Masalah Sampah Indonesia',
     content: [
       {
@@ -182,7 +182,7 @@ const bloglist = [
     title: 'Manfaat Daur Ulang Sampah: Mendukung Lingkungan dan Ekonomi',
     caption: 'Daur ulang adalah praktik yang penting dalam mengurangi limbah dan mendukung keberlanjutan lingkungan. Artikel ini akan menjelaskan manfaat daur ulang sampah serta dampak positifnya pada lingkungan dan ekonomi.',
     date: '20 Oktober 2023',
-    image: '/img/article/daur-ulang-sampah.png',
+    image: '/img/article/daur-ulang-sampah.webp',
     filtered: 'Daur Ulang',
     content: [
       {
