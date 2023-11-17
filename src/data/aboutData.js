@@ -4,7 +4,7 @@ const hero = {
 };
 
 const contributors = {
-  title: 'Kontributor',
+  title: 'Meet our team',
   developers: [
     {
       id: 0,

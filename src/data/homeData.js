@@ -74,7 +74,7 @@ const footer = {
   },
   linkedin: {
     title: 'View On Linkedin',
-    url: 'https://linkedin.com/chndrwali',
+    url: 'https://linkedin.com/in/chndrwali',
   },
   instagram: {
     title: 'View On Instagram',

@@ -32,11 +32,11 @@ body {
 }
 
 .btn-link {
-  @apply flex items-center text-base text-white py-2 mx-6 px-4 bg-primary/90 rounded min-h-[44px] min-w-[44px] hover:bg-dark/90 lg:mx-4 hover:shadow-xl hover:opacity-80 transition duration-300 ease-out;
+  @apply flex items-center font-semibold text-base text-white py-2 mx-6 px-4 bg-gradient-to-r from-green-400 via-teal-400 to-teal-500  rounded min-h-[44px] min-w-[44px] hover:brightness-110 hover:translate-y-[1px] lg:mx-4 hover:shadow-xl hover:opacity-80 transition duration-300 ease-out;
 }
 
 .btn-link.active {
-  @apply shadow-xl opacity-80;
+  @apply shadow-xl opacity-80 border-yellow-400 border-b-[4px];
 }
 
 @layer components {
